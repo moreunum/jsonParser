@@ -1,6 +1,7 @@
 #include <iostream>
+#include "module.h"
 using namespace std;
 
 int main(){
-  cout << "main" << endl;
+  cout << returnTrue() << endl;
 }
